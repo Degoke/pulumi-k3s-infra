@@ -1,0 +1,7 @@
+name: pulumi-k3s-infra
+runtime: go
+description: A minimal AWS Go Pulumi program
+config:
+  aws:region: ap-northeast-1
+  pulumi-k3s-infra:privateKeyPath: DevKeypair
+  pulumi-k3s-infra:publicKeyPath: DevKeypair.pub
